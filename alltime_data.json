@@ -1,0 +1,50 @@
+[
+    {
+        "data": "08/05/2024",
+        "ARROZ BRANCO": {
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "ARROZ INTEGRAL": {
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "FEIJÃO PRETO": {
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "RISOTO DE FRANGO": {
+            "composicao": "Frango, cebola, tomate, arroz, milho, ervilha, sal, óleo, tempero verde, molho de tomate e colorau.",
+            "calorias": "417",
+            "porcao": "100 gramas"
+        },
+        "BATATA PALHA": {
+            "composicao": "Batata palha.",
+            "calorias": "545",
+            "porcao": "100 gramas"
+        },
+        "STROGONOFF DE PROTEÍNA": {
+            "composicao": "Proteína de soja chunck, cebola, tomate, pimentão verde, cogumelo champignon, leite de coco, caldo de legumes, pimenta, óleo de soja, sal.",
+            "calorias": "131",
+            "porcao": "100 gramas"
+        },
+        "SALADA FOLHOSA": {
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "SALADA CRUA OU COZIDA": {
+            "composicao": "Legumes ou hortaliças crus ou cozidos",
+            "calorias": "15",
+            "porcao": "100 gramas"
+        },
+        "FRUTA": {
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    }
+]
