@@ -28,8 +28,8 @@ TABELA_ID = "gridListaCardapios"
 SELECTOR_ROWS = f"#{TABELA_ID} > tbody > tr:not(.jqgfirstrow)"
 SELECTOR_CELLS = "td[role='gridcell']"
 
-ALLTIME_OUTPUT_FILE_NAME = "alltime_data.json"
-LAST_OUTPUT_FILE_NAME = "last_data.json"
+ALLTIME_OUTPUT_FILE_NAME = "data/alltime_data.json"
+LAST_OUTPUT_FILE_NAME = "data/last_data.json"
 
 def main():
     loading_time = args.loading_time
@@ -96,6 +96,7 @@ def main():
 
     alltime_data.append(day_data)
 
+    print("Salvando dados...")
     with open(ALLTIME_OUTPUT_FILE_NAME, "w", encoding='utf-8') as f:
         json.dump(alltime_data, f, indent=4, ensure_ascii=False)
     
