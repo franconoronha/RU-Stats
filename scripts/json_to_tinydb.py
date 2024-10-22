@@ -46,9 +46,9 @@ def main():
     db.drop_table('prato')
     db.drop_table('cardapio')
 
-    alteracao = db.table('alteracao')
-    prato = db.table('prato')
-    cardapio = db.table('cardapio')
+    alteracao_table = db.table('alteracao')
+    prato_table = db.table('prato')
+    cardapio_table = db.table('cardapio')
     PratoQ = Query()
     CardapioQ = Query()
 
@@ -59,29 +59,23 @@ def main():
     if all_data and hasattr(all_data, '__iter__'):
         for day in all_data:
             date = datetime.strptime(day['data'], '%d/%m/%Y').strftime('%Y-%m-%d')
-            test_day = cardapio.get(CardapioQ.data == date)
+            test_day = cardapio_table.get(CardapioQ.data == date)
             if test_day:
                 print('Day already exists')
                 continue
-
-            ###
-            keys = list(day.keys())
-            proteina_animal_key = keys[4]
-            proteina_vegetal_key = keys[5]
-            acompanhamento_key = keys[6]
             
-            proteina_animal = insert_prato(alteracao, prato, PratoQ, day[proteina_animal_key], day['data'], proteina_animal_key)
-            proteina_vegetal = insert_prato(alteracao, prato, PratoQ, day[proteina_vegetal_key], day['data'], proteina_vegetal_key)
-            acompanhamento = insert_prato(alteracao, prato, PratoQ, day[acompanhamento_key], day['data'], acompanhamento_key)
+            proteina_animal = insert_prato(alteracao_table, prato_table, PratoQ, day, 'proteina_animal')
+            proteina_vegetal = insert_prato(alteracao_table, prato_table, PratoQ, day, 'proteina_vegetal')
+            acompanhamento = insert_prato(alteracao_table, prato_table, PratoQ, day, 'acompanhamento')
 
-            arroz_branco = insert_prato(alteracao, prato, PratoQ, day['arroz_branco'], day['data'], 'ARROZ BRANCO')
-            arroz_integral = insert_prato(alteracao, prato, PratoQ, day['arroz_integral'], day['data'], 'ARROZ INTEGRAL')
-            feijao = insert_prato(alteracao, prato, PratoQ, day['feijao'], day['data'], 'FEIJAO PRETO')
-            salada_crua = insert_prato(alteracao, prato, PratoQ, day['salada_crua'], day['data'], 'SALADA CRUA')
-            salada_cozida = insert_prato(alteracao, prato, PratoQ, day['salada_cozida'], day['data'], 'SALADA COZIDA')
-            salada_folhosa = insert_prato(alteracao, prato, PratoQ, day['salada_folhosa'], day['data'], 'SALADA FOLHOSA')
-            fruta = insert_prato(alteracao, prato, PratoQ, day['fruta'], day['data'], 'FRUTA')
-            cardapio.insert({'data': day['data'],
+            arroz_branco = insert_prato(alteracao_table, prato_table, PratoQ, day, 'arroz_branco')
+            arroz_integral = insert_prato(alteracao_table, prato_table, PratoQ, day, 'arroz_integral')
+            feijao = insert_prato(alteracao_table, prato_table, PratoQ, day, 'feijao')
+            salada_crua = insert_prato(alteracao_table, prato_table, PratoQ, day, 'salada_crua')
+            salada_cozida = insert_prato(alteracao_table, prato_table, PratoQ, day, 'salada_cozida')
+            salada_folhosa = insert_prato(alteracao_table, prato_table, PratoQ, day, 'salada_folhosa')
+            fruta = insert_prato(alteracao_table, prato_table, PratoQ, day, 'fruta')
+            cardapio_table.insert({'data': day['data'],
                             'arroz_branco': arroz_branco, 
                             'arroz_integral': arroz_integral, 
                             'feijao': feijao,
@@ -93,24 +87,26 @@ def main():
                             'salada_folhosa': salada_folhosa,
                             'fruta': fruta})
             
-    pratos = prato.all()
+    pratos = prato_table.all()
     print('Pratos:', len(pratos))
-    cardapios = cardapio.all()
+    cardapios = cardapio_table.all()
     print('Cardapios:', len(cardapios))
-    alteracoes = alteracao.all()
+    alteracoes = alteracao_table.all()
     print('Alteracoes:', len(alteracoes))
 
     db.close()
 
 
-def insert_prato(alteracao_table, prato_table, PratoQ, prato, date, name):
+def insert_prato(alteracao_table, prato_table, PratoQ, day, key):
     global id_prato
     global id_alteracao
-    prato['nome'] = name
+
+    date = day['data']
+    prato = day[key]
     prato['id'] = id_prato
     prato['calorias'] = int(prato['calorias'])
 
-    existing_prato = prato_table.search(PratoQ.nome == name)
+    existing_prato = prato_table.search(PratoQ.nome == prato['nome'])
 
     log('Prato:', existing_prato)
     if existing_prato:

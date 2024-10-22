@@ -1,3 +1,5 @@
+# Não tá funcionando, mas eu acho que não vai ter uso mesmo
+
 import sqlite3
 import json
 from datetime import datetime
