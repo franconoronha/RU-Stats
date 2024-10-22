@@ -16,6 +16,8 @@ args = parser.parse_args()
 MINIFY = args.minify
 VERBOSE = args.verbose
 
+columns = ["arroz_branco", "arroz_integral", "feijao", "proteina_animal", "acompanhamento", "proteina_vegetal", "salada_folhosa", "salada_crua", "salada_cozida", "fruta"]
+
 DATA_COLUMN = 'd' if MINIFY else 'data'
 ARROZ_BRANCO_COLUMN = 'ab' if MINIFY else 'arroz_branco'
 ARROZ_INTEGRAL_COLUMN = 'ai' if MINIFY else 'arroz_integral'
@@ -72,13 +74,13 @@ def main():
             proteina_vegetal = insert_prato(alteracao, prato, PratoQ, day[proteina_vegetal_key], day['data'], proteina_vegetal_key)
             acompanhamento = insert_prato(alteracao, prato, PratoQ, day[acompanhamento_key], day['data'], acompanhamento_key)
 
-            arroz_branco = insert_prato(alteracao, prato, PratoQ, day['ARROZ BRANCO'], day['data'], 'ARROZ BRANCO')
-            arroz_integral = insert_prato(alteracao, prato, PratoQ, day['ARROZ INTEGRAL'], day['data'], 'ARROZ INTEGRAL')
-            feijao = insert_prato(alteracao, prato, PratoQ, day['FEIJÃO PRETO'], day['data'], 'FEIJAO PRETO')
-            salada_crua = insert_prato(alteracao, prato, PratoQ, day['SALADA CRUA'], day['data'], 'SALADA CRUA')
-            salada_cozida = insert_prato(alteracao, prato, PratoQ, day['SALADA COZIDA'], day['data'], 'SALADA COZIDA')
-            salada_folhosa = insert_prato(alteracao, prato, PratoQ, day['SALADA FOLHOSA'], day['data'], 'SALADA FOLHOSA')
-            fruta = insert_prato(alteracao, prato, PratoQ, day['FRUTA'], day['data'], 'FRUTA')
+            arroz_branco = insert_prato(alteracao, prato, PratoQ, day['arroz_branco'], day['data'], 'ARROZ BRANCO')
+            arroz_integral = insert_prato(alteracao, prato, PratoQ, day['arroz_integral'], day['data'], 'ARROZ INTEGRAL')
+            feijao = insert_prato(alteracao, prato, PratoQ, day['feijao'], day['data'], 'FEIJAO PRETO')
+            salada_crua = insert_prato(alteracao, prato, PratoQ, day['salada_crua'], day['data'], 'SALADA CRUA')
+            salada_cozida = insert_prato(alteracao, prato, PratoQ, day['salada_cozida'], day['data'], 'SALADA COZIDA')
+            salada_folhosa = insert_prato(alteracao, prato, PratoQ, day['salada_folhosa'], day['data'], 'SALADA FOLHOSA')
+            fruta = insert_prato(alteracao, prato, PratoQ, day['fruta'], day['data'], 'FRUTA')
             cardapio.insert({'data': day['data'],
                             'arroz_branco': arroz_branco, 
                             'arroz_integral': arroz_integral, 
@@ -90,6 +92,7 @@ def main():
                             'salada_cozida': salada_cozida,
                             'salada_folhosa': salada_folhosa,
                             'fruta': fruta})
+            
     pratos = prato.all()
     print('Pratos:', len(pratos))
     cardapios = cardapio.all()

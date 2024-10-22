@@ -1,28 +1,12 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { ApexOptions } from 'apexcharts';
-
-const series = ref([
-  {
-    name: 'Desktops',
-    data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
-  }
-]);
-
-const options: ApexOptions = {
-  chart: {
-    type: 'line'
-  },
-  xaxis: {
-    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep']
-  }
-};
+import Main from './components/Main.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
   <div>
-    <h1>RU-Stats</h1>
-    <apexchart width="500" type="line" :options="options" :series="series"></apexchart>
+    <Main></Main>
+    <Footer></Footer>
   </div>
 </template>
 

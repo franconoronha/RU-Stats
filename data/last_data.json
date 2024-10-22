@@ -1,0 +1,63 @@
+{
+    "data": "21/10/2024",
+    "arroz_branco": {
+        "nome": "ARROZ BRANCO",
+        "composicao": "Arroz branco, óleo de soja, sal.",
+        "calorias": "174",
+        "porcao": "100 gramas"
+    },
+    "arroz_integral": {
+        "nome": "ARROZ INTEGRAL",
+        "composicao": "Arroz integral, óleo de soja, sal.",
+        "calorias": "156",
+        "porcao": "100 gramas"
+    },
+    "feijao": {
+        "nome": "FEIJÃO PRETO",
+        "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+        "calorias": "91",
+        "porcao": "100 gramas"
+    },
+    "proteina_animal": {
+        "nome": "FRANGO ESCABELADO",
+        "composicao": "Peito de frango, leite, amido de milho, tomate, cebola, extrato de tomate, alho, óleo de soja, sal, batata palha.",
+        "calorias": "161",
+        "porcao": "100 gramas"
+    },
+    "acompanhamento": {
+        "nome": "MASSA NA MANTEIGA COM ORÉGANO",
+        "composicao": "Massa parafuso ou penne, margarina, óleo, sal, orégano.",
+        "calorias": "433",
+        "porcao": "100 gramas"
+    },
+    "proteina_vegetal": {
+        "nome": "ERVILHA INDIANA",
+        "composicao": "Ervilha, pimentão verde, couve-flor, louro, curry, gengibre, canela em pó, óleo de soja, alho, cebola e sal.",
+        "calorias": "228",
+        "porcao": "100 gramas"
+    },
+    "salada_folhosa": {
+        "nome": "SALADA FOLHOSA",
+        "composicao": "Salada folhosa.",
+        "calorias": "0",
+        "porcao": "100 gramas"
+    },
+    "salada_crua": {
+        "nome": "SALADA CRUA",
+        "composicao": "Salada crua.",
+        "calorias": "0",
+        "porcao": "100 gramas"
+    },
+    "salada_cozida": {
+        "nome": "SALADA COZIDA",
+        "composicao": "Salada cozida.",
+        "calorias": "0",
+        "porcao": "100 gramas"
+    },
+    "fruta": {
+        "nome": "FRUTA",
+        "composicao": "01 Fruta da estação.",
+        "calorias": "0",
+        "porcao": "100 gramas"
+    }
+}

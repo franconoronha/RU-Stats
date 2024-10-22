@@ -72,27 +72,32 @@ def main():
             logger.error("Já existe um registro para o dia de hoje")
             return 
 
+    columns = ["arroz_branco", "arroz_integral", "feijao", "proteina_animal", "acompanhamento", "proteina_vegetal", "salada_folhosa", "salada_crua", "salada_cozida", "fruta"]
     day_data = {
         "data": todays_date,
     }
 
-
-    for row in rows:
+    cur = 0
+    for i, row in enumerate(rows):
         cells = row.find_elements(By.CSS_SELECTOR, SELECTOR_CELLS)
         cells = [cell for cell in cells if cell.text]
-
         logger.info(f"Encontradas {len(cells)} células")
         if len(cells) != 4:
             logger.warning("Número de células diferente de 4")
             continue
         else:
-            if cells[0].text in day_data:
+            if cur >= len(columns):
+                logger.warning("cur maior que len(columns)")
+                break
+            if columns[cur] in day_data:
                 continue
-            day_data[cells[0].text] = {
+            day_data[columns[cur]] = {
+                "nome": cells[0].text,
                 "composicao": cells[1].text,
                 "calorias": cells[2].text,
                 "porcao": cells[3].text
             }
+            cur += 1
 
     alltime_data.append(day_data)
 
