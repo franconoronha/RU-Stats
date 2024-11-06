@@ -22,8 +22,11 @@ interface Cardapio {
 
 type PratoMap = { [id: number]: Prato };
 type CardapioMap = { [data: string]: Cardapio };
+type PratoKeys = keyof Prato;
+type CardapioKeys = keyof Cardapio;
+type PratoTypes = Omit<CardapioKeys, 'data'>;
 
 interface Stats {
     prato: PratoMap;
-    cardapio: CardapioMap;
+    cardapio: Cardapio[];
 }

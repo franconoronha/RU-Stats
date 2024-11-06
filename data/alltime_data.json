@@ -2644,5 +2644,1013 @@
             "calorias": "0",
             "porcao": "100 gramas"
         }
+    },
+    {
+        "data": "22/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "ALMÔNDEGA AO MOLHO",
+            "composicao": "Almôndega bovina, tomate, cebola, pimentão verde, extrato de tomate, tempero verde, sal.",
+            "calorias": "281",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "ABÓBORA REFOGADA",
+            "composicao": "Abóbora cabotiá, cebola, alho, molho shoyu, sal, óleo de soja.",
+            "calorias": "50",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "CUBOS DE SOJA COM MOLHO ESCURO",
+            "composicao": "Proteína de soja chunck, cebola, tomate, pimentão verde, molho shoyu, óleo de soja, champignon, alho, sal.",
+            "calorias": "121",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "23/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO CARIOCA",
+            "composicao": "Feijão carioca, alho, louro, óleo de soja e sal.",
+            "calorias": "90",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "STROGONOFF DE FRANGO",
+            "composicao": "Peito de frango, leite em pó integral, amido de milho, tomate, cebola, extrato de tomate, mostarda, catchup, sal e óleo de soja.s",
+            "calorias": "123",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "BATATA PALHA",
+            "composicao": "Batata palha.",
+            "calorias": "545",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "LEGUMES AO MOLHO MADEIRA COM PROTEÍNA E GERGELIM",
+            "composicao": "BATATA INGLESA, PROTEÍNA, CENOURA, BRÓCOLIS, COUVE-FLOR,  GERGELIM, ÓLEO, SAL, CALDO DE LEGUMES, ORÉGANO, TEMPERO VERDE, MOLHO SHOYU E AMIDO DE MILHO.",
+            "calorias": "71",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "24/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "ISCA SUÍNA ACEBOLADA",
+            "composicao": "Iscas suínas, cebola, molho shoyu, amido de milho, extrato de tomate, alho e sal.",
+            "calorias": "191",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "POLENTA COM QUEIJO",
+            "composicao": "Farinha de milho, queijo ralado, tempero verde, sal, óleo de soja.",
+            "calorias": "378",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "PROTEÍNA COM MILHO",
+            "composicao": "Proteína de soja chunck, milho, cebola, extrato de tomate, óleo de soja, alho e sal.",
+            "calorias": "125",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "25/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "GUISADO COM MOLHO",
+            "composicao": "CARNE BOVINA MOÍDA, TOMATE, CEBOLA, PIMENTÃO VERDE, EXTRATO TOMATE, ÓLEO DE SOJA, ALHO PICADO E SAL",
+            "calorias": "191",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "AIPIM SOUTÉ",
+            "composicao": "Aipim, cebola, margarina, sal, tempero verde.",
+            "calorias": "125",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "GRÃO DE BICO ENSOPADO",
+            "composicao": "Grão de bico, abobrinha, cenoura, batata, alho, óleo de soja, extrato de tomate, sal.",
+            "calorias": "296",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "26/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "SOBRECOXA ASSADA",
+            "composicao": "Sobrecoxa, alho picado, alecrim, sal.",
+            "calorias": "260",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "MASSA AO MOLHO",
+            "composicao": "Massa de sêmola (pode conter ovos), cebola, tomate, pimentão verde, extrato de tomate, óleo de soja, sal, tempero verde.",
+            "calorias": "276",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "FRICASSÊ DE PROTEÍNA",
+            "composicao": "Proteína de soja chunck, cebola, tomate, pimentão verde, leite de coco, molho shoyu, batata palha, óleo de soja, alho picado, sal.",
+            "calorias": "162",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "27/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "PEIXE EMPANADO",
+            "composicao": "Peixe empanado industrializado.",
+            "calorias": "274",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "CENOURA COM MOLHO BRANCO",
+            "composicao": "Cenoura, leite, amido de milho, margarina, sal, noz moscada.",
+            "calorias": "147",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "GUISADO DE LENTILHA",
+            "composicao": "Lentilha, cebola, tomate, pimentão verde, orégano, louro, óleo de soja, sal.",
+            "calorias": "93",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "28/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "FRANGO AO MOLHO DE ERVILHA",
+            "composicao": "Frango, ervilha, cebola, tomate, extrato de tomate, alho picado, óleo de soja, sal.",
+            "calorias": "152",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "PURÊ DE BATATA",
+            "composicao": "Fécula de batata, leite, margarina, sal.",
+            "calorias": "70",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "PROTEÍNA COM ERVILHA",
+            "composicao": "Proteína de soja chunck, ervilha, cebola, extrato de tomate, óleo de soja, alho, sal.",
+            "calorias": "123",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "29/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "ISCA BOVINA COM CENOURA",
+            "composicao": "Iscas de rês, cenoura, tomate, cebola, pimentão verde, extrato de tomate, sal, molho shoyu.",
+            "calorias": "169",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "MEXIDO DE COUVE",
+            "composicao": "Couve verde, farinha de mandioca, sal, alho, cebola, óleo de soja.",
+            "calorias": "110",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "ERVILHA PARTIDA COM ABÓBORA",
+            "composicao": "Ervilha partida, abóbora, pimentão verde, cebola, óleo de soja, louro, alho, sal.",
+            "calorias": "94",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "30/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "NUGGETS DE FRANGO",
+            "composicao": "Nuggets de frango com recheio de queijo.",
+            "calorias": "211",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "MASSA AO MOLHO",
+            "composicao": "Massa de sêmola (pode conter ovos), cebola, tomate, pimentão verde, extrato de tomate, óleo de soja, sal, tempero verde.",
+            "calorias": "276",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "PROTEÍNA ACEBOLADA",
+            "composicao": "Proteína de soja c4, cebola, alho, molho shoyu, sal, óleo de soja.",
+            "calorias": "127",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "31/10/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO CARIOCA",
+            "composicao": "Feijão carioca, alho, louro, óleo de soja e sal.",
+            "calorias": "90",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "GUISADO COM OVOS",
+            "composicao": "Carne moída, ovos, tomate, cebola, extrato de tomate, pimentão, sal, molho shoyu, colorau, louro, tempero verde.",
+            "calorias": "191",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "REFOGADO DE LEGUMES",
+            "composicao": "Repolho branco, cenoura, cebola, pimentão, molho shoyu, sal, óleo de soja.",
+            "calorias": "30",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "CURRY DE GRÃO DE BICO",
+            "composicao": "Grão de bico, tomate, cebola, leite de coco, alho picado, curry, gengibre em pó, óleo de soja, sal.",
+            "calorias": "305",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "01/11/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "SALSICHÃO",
+            "composicao": "Salsichão industrializado.",
+            "calorias": "296",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "FAROFA COLORIDA",
+            "composicao": "Farinha de mandioca, cenoura, cebola, pimentão verde, milho, tempero verde, óleo de soja, passas de uva, temperos.",
+            "calorias": "147",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "FEIJÃO BRANCO COM LEGUMES",
+            "composicao": "Feijão branco, cenoura, batata, cebola, tempero verde, sal, óleo de soja, temperos.",
+            "calorias": "289",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "02/11/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "FRANGO ACEBOLADO",
+            "composicao": "Frango, cebola, amido de milho, molho shoyu, extrato de tomate, óleo de soja, alho picado, sal.",
+            "calorias": "151",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "MASSA PRIMAVERA",
+            "composicao": "Massa sêmola, pimentão verde, brócolis, cenoura, ervilha, cebola, óleo, caldo de legumes, sal e orégano. ",
+            "calorias": "228",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "CAPONATA DE BERINJELA COM QUINOA ",
+            "composicao": "Berinjela, quinoa, pimentão verde, cebola, orégano, tomate, tempero verde, óleo e sal.",
+            "calorias": "61",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "03/11/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "ALMÔNDEGA AO MOLHO",
+            "composicao": "Almôndega bovina, tomate, cebola, pimentão verde, extrato de tomate, tempero verde, sal.",
+            "calorias": "281",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "CENOURA E CHUCHU REFOGADOS",
+            "composicao": "Cenoura, chuchu, cebola, caldo de legumes, sal e óleo.",
+            "calorias": "80",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "PROTEÍNA AO MOLHO",
+            "composicao": "Proteína texturizada de soja, cebola, extrato de tomate, óleo de soja, alho e sal. ",
+            "calorias": "123",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "04/11/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO PRETO",
+            "composicao": "Feijão preto, cebola, alho, óleo e sal.",
+            "calorias": "91",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "FRANGO XADREZ",
+            "composicao": "Frango, cebola, tomate, pimentão verde, pimentão vermelho, óleo de soja, molho shoyu, amido de milho, sal, colorau.",
+            "calorias": "146",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "MASSA AO ALHO E ÓLEO",
+            "composicao": "Massa de sêmola (pode conter ovos), óleo de soja, alho picado, sal, tempero verde.",
+            "calorias": "384",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "LEGUMES AO MOLHO MADEIRA COM PROTEÍNA E GERGELIM",
+            "composicao": "BATATA INGLESA, PROTEÍNA, CENOURA, BRÓCOLIS, COUVE-FLOR,  GERGELIM, ÓLEO, SAL, CALDO DE LEGUMES, ORÉGANO, TEMPERO VERDE, MOLHO SHOYU E AMIDO DE MILHO.",
+            "calorias": "71",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "05/11/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO CARIOCA",
+            "composicao": "Feijão carioca, alho, louro, óleo de soja e sal.",
+            "calorias": "90",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "FRANGO AO MOLHO DE ERVILHA",
+            "composicao": "Frango, ervilha, cebola, tomate, extrato de tomate, alho picado, óleo de soja, sal.",
+            "calorias": "152",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "BATATA DOCE SOUTÉ",
+            "composicao": "Batata doce, cebola, margarina, sal, tempero verde.",
+            "calorias": "93",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "LENTILHA COM LEGUMES",
+            "composicao": "Lentilha, cenoura, batata, tomate, cebola, alho, sal, louro, óleo de soja.",
+            "calorias": "70",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
+    },
+    {
+        "data": "06/11/2024",
+        "arroz_branco": {
+            "nome": "ARROZ BRANCO",
+            "composicao": "Arroz branco, óleo de soja, sal.",
+            "calorias": "174",
+            "porcao": "100 gramas"
+        },
+        "arroz_integral": {
+            "nome": "ARROZ INTEGRAL",
+            "composicao": "Arroz integral, óleo de soja, sal.",
+            "calorias": "156",
+            "porcao": "100 gramas"
+        },
+        "feijao": {
+            "nome": "FEIJÃO CARIOCA",
+            "composicao": "Feijão carioca, alho, louro, óleo de soja e sal.",
+            "calorias": "90",
+            "porcao": "100 gramas"
+        },
+        "proteina_animal": {
+            "nome": "FRANGO AO MOLHO DE ERVILHA",
+            "composicao": "Frango, ervilha, cebola, tomate, extrato de tomate, alho picado, óleo de soja, sal.",
+            "calorias": "152",
+            "porcao": "100 gramas"
+        },
+        "acompanhamento": {
+            "nome": "BATATA DOCE SOUTÉ",
+            "composicao": "Batata doce, cebola, margarina, sal, tempero verde.",
+            "calorias": "93",
+            "porcao": "100 gramas"
+        },
+        "proteina_vegetal": {
+            "nome": "LENTILHA COM LEGUMES",
+            "composicao": "Lentilha, cenoura, batata, tomate, cebola, alho, sal, louro, óleo de soja.",
+            "calorias": "70",
+            "porcao": "100 gramas"
+        },
+        "salada_folhosa": {
+            "nome": "SALADA FOLHOSA",
+            "composicao": "Salada folhosa.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_crua": {
+            "nome": "SALADA CRUA",
+            "composicao": "Salada crua.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "salada_cozida": {
+            "nome": "SALADA COZIDA",
+            "composicao": "Salada cozida.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        },
+        "fruta": {
+            "nome": "FRUTA",
+            "composicao": "01 Fruta da estação.",
+            "calorias": "0",
+            "porcao": "100 gramas"
+        }
     }
 ]

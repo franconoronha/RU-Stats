@@ -1,5 +1,5 @@
 {
-    "data": "21/10/2024",
+    "data": "06/11/2024",
     "arroz_branco": {
         "nome": "ARROZ BRANCO",
         "composicao": "Arroz branco, óleo de soja, sal.",
@@ -13,27 +13,27 @@
         "porcao": "100 gramas"
     },
     "feijao": {
-        "nome": "FEIJÃO PRETO",
-        "composicao": "Feijão preto, cebola, alho, óleo e sal.",
-        "calorias": "91",
+        "nome": "FEIJÃO CARIOCA",
+        "composicao": "Feijão carioca, alho, louro, óleo de soja e sal.",
+        "calorias": "90",
         "porcao": "100 gramas"
     },
     "proteina_animal": {
-        "nome": "FRANGO ESCABELADO",
-        "composicao": "Peito de frango, leite, amido de milho, tomate, cebola, extrato de tomate, alho, óleo de soja, sal, batata palha.",
-        "calorias": "161",
+        "nome": "FRANGO AO MOLHO DE ERVILHA",
+        "composicao": "Frango, ervilha, cebola, tomate, extrato de tomate, alho picado, óleo de soja, sal.",
+        "calorias": "152",
         "porcao": "100 gramas"
     },
     "acompanhamento": {
-        "nome": "MASSA NA MANTEIGA COM ORÉGANO",
-        "composicao": "Massa parafuso ou penne, margarina, óleo, sal, orégano.",
-        "calorias": "433",
+        "nome": "BATATA DOCE SOUTÉ",
+        "composicao": "Batata doce, cebola, margarina, sal, tempero verde.",
+        "calorias": "93",
         "porcao": "100 gramas"
     },
     "proteina_vegetal": {
-        "nome": "ERVILHA INDIANA",
-        "composicao": "Ervilha, pimentão verde, couve-flor, louro, curry, gengibre, canela em pó, óleo de soja, alho, cebola e sal.",
-        "calorias": "228",
+        "nome": "LENTILHA COM LEGUMES",
+        "composicao": "Lentilha, cenoura, batata, tomate, cebola, alho, sal, louro, óleo de soja.",
+        "calorias": "70",
         "porcao": "100 gramas"
     },
     "salada_folhosa": {

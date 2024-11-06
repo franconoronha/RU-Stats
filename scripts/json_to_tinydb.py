@@ -1,5 +1,6 @@
 from tinydb import TinyDB, Query
 from datetime import datetime
+import shutil
 import json
 
 id_alteracao = 1
@@ -40,8 +41,9 @@ def log(*args):
         print(msg)
 
 def main():
-    db_file = 'data/db' + ('_min' if MINIFY else '') + '.json'
-    db = TinyDB(db_file)
+    db_file = 'db' + ('_min' if MINIFY else '') + '.json'
+    path = 'data/' + db_file
+    db = TinyDB(path)
     db.drop_table('alteracao')
     db.drop_table('prato')
     db.drop_table('cardapio')
@@ -75,17 +77,17 @@ def main():
             salada_cozida = insert_prato(alteracao_table, prato_table, PratoQ, day, 'salada_cozida')
             salada_folhosa = insert_prato(alteracao_table, prato_table, PratoQ, day, 'salada_folhosa')
             fruta = insert_prato(alteracao_table, prato_table, PratoQ, day, 'fruta')
-            cardapio_table.insert({'data': day['data'],
-                            'arroz_branco': arroz_branco, 
-                            'arroz_integral': arroz_integral, 
-                            'feijao': feijao,
-                            'proteina_animal': proteina_animal,
-                            'proteina_vegetal': proteina_vegetal, 
-                            'acompanhamento': acompanhamento, 
-                            'salada_crua': salada_crua, 
-                            'salada_cozida': salada_cozida,
-                            'salada_folhosa': salada_folhosa,
-                            'fruta': fruta})
+            cardapio_table.insert({DATA_COLUMN: day['data'],
+                            ARROZ_BRANCO_COLUMN: arroz_branco, 
+                            ARROZ_INTEGRAL_COLUMN: arroz_integral, 
+                            FEIJAO_COLUMN: feijao,
+                            PROTEINA_ANIMAL_COLUMN: proteina_animal,
+                            PROTEINA_VEGETAL_COLUMN: proteina_vegetal, 
+                            ACOMPANHAMENTO_COLUMN: acompanhamento, 
+                            SALADA_CRUA_COLUMN: salada_crua, 
+                            SALADA_COZIDA_COLUMN: salada_cozida,
+                            SALADA_FOLHOSA_COLUMN: salada_folhosa,
+                            FRUTA_COLUMN: fruta})
             
     pratos = prato_table.all()
     print('Pratos:', len(pratos))
@@ -95,6 +97,9 @@ def main():
     print('Alteracoes:', len(alteracoes))
 
     db.close()
+
+    # copy file to client public folder
+    shutil.copy(path, './client/public/')
 
 
 def insert_prato(alteracao_table, prato_table, PratoQ, day, key):

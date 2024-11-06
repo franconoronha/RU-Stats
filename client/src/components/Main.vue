@@ -1,48 +1,28 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
-import { ApexOptions } from 'apexcharts';
-
-const series = ref([
-  {
-    name: 'Desktops',
-    data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
-  }
-]);
-
-const options: ApexOptions = {
-  chart: {
-    type: 'line'
-  },
-  xaxis: {
-    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep']
-  }
-};
-
-let proteinas_animal = ref<number[]>([]);
-let proteinas_vegetal = ref<number[]>([]);
+import { onMounted } from 'vue';
+import LastCardapio from './dataComponent/LastCardapio.vue';
+import Count from './dataComponent/Count.vue';
+import DayDistribution from './dataComponent/DayDistribution.vue';
+import LongestAbsence from './dataComponent/LongestAbsence.vue';
+import Catalogue from './dataComponent/Catalogue.vue';
+import store from '../store';
 
 onMounted(async () => {
-  const stats = await fetch('/db.json').then(res => res.json()) as Stats;
-  const cardapio = Object.keys(stats.cardapio).map(key => stats.cardapio[Number(key)]);
-  const pratos = Object.keys(stats.prato).map(key => stats.prato[Number(key)]);
-
-  proteinas_animal.value = cardapio.map(item => item.proteina_animal);
-  proteinas_vegetal.value = cardapio.map(item => item.proteina_vegetal);
-
-  console.log(proteinas_animal.value);
+  store.getStats();
 });
 </script>
 
 <template>
     <main>
-        <div class="pt-5">
+        <div class="pt-10 mb-5">
             <h1>RU Stats</h1>
         </div>
-        <apexchart width="500" type="line" :options="options" :series="series"></apexchart>
-        <div>
-            <p v-for="proteina in proteinas_animal">
-                {{ proteina }}
-            </p>
+        <div v-if="store.cardapio">
+            <LastCardapio></LastCardapio>
+            <Count></Count>
+            <DayDistribution></DayDistribution>
+            <LongestAbsence></LongestAbsence>
+            <Catalogue></Catalogue>
         </div>
     </main>
 </template>
